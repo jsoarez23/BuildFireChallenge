@@ -47,3 +47,5 @@ to avoid misswriting.
 20. Different endpoints for different pages should be included.
 
 21. Server should not be on root of the project, you should separate layers for server and client side.
+
+22. Should use angular components for creating html, and update to a newer angular version
