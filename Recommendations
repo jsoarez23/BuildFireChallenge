@@ -1,0 +1,49 @@
+Recomendations:
+This is a list of recommendations to make this project better 
+(UI, UX, Performance, Security, Architecture, Bug fix, New Feature, ...etc )
+
+// Please make your recommendations as clear as possible with only a few sentences 
+
+1. Ux/Ui should be imrpoved on login, form should be centered (inputs too big), login button should be on a better position
+
+2. Error message should be red, not yellow it seems a warning, messages should be more formal, for ex: 'Please fill all the data', error should be descriptive 
+to the missing data, required inputs should be highlighted. 
+
+3. Data on post/put should be encrypted for passwords or sensible data
+
+4. Errors on console should not be thwrown.
+
+5. Register should be included for non already registered users.
+
+6. Data on backend should not be hardcoded like email, password ,etc you should use a database for example for this kind of things
+
+7. Image after login should be more friendly, change size for ex.
+
+8. (New Feature) You should be able to modify profile data like photo, name, etc not only password
+
+9. You should have separated HTML files for diferent pages, for ex login and profile.
+
+10. May be use MVC arquitechure.
+
+11. Validation for not new password entered on change password.
+
+12. Usability: for changing password you should enter the previous password for security reasons and confirm the new password in order
+to avoid misswriting.
+
+13. Change password button does nothing. (Implement functionality)
+
+14. Add functionality to page, you cannot do anything not even change "your" own password.
+
+15. Session should be kept for a period of time.
+
+16. You should be able to be log out.
+
+17. Request on login for getting an image unnecessary.
+
+18. Profile image is not accurate, sometimes it shows some and sometimes other
+
+19. Going back does nothing when logged.
+
+20. Different endpoints for different pages should be included.
+
+21. Server should not be on root of the project, you should separate layers for server and client side.

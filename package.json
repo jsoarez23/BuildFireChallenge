@@ -1,0 +1,27 @@
+{
+  "name": "make_me_better",
+  "version": "1.0.0",
+  "description": "simple test to see what you can do better",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHindi/makeMeBetter.git"
+  },
+  "author": "Daniel Hindi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielHindi/makeMeBetter/issues"
+  },
+  "homepage": "https://github.com/DanielHindi/makeMeBetter#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "serve-static": "^1.13.1"
+  }
+}
